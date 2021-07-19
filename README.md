@@ -30,10 +30,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # Vuejs setup
 
-To install Vuejs
+## To install Vuejs
+
 \$ npm -g i @vue/cli
 
-To create an vue app
+## To create an vue app
+
 \$ vue create vue-weather
 
 Then the prompt asks you few questions 1.
@@ -70,11 +72,27 @@ $ yarn serve (to start up app on the server)
 or
 \$ code . && yarn serve
 
+## ADD EXTENTIONS https://code.visualstudio.com/docs/nodejs/vuejs-tutorial
+
 Q. Why? VSCode is freaking out? (Though the code is working)
 A. “Now expand the src folder and select the App.vue file. You'll notice that VS Code doesn't show any syntax highlighting and it treats the file as Plain Text”
 https://code.visualstudio.com/docs/nodejs/vuejs-tutorial
 
 > > > Install an Extension “Vetur”. And JSCno longer freaks out
+
+###### auto close tag doesn't work in vue file
+
+vue のテンプレートを書いていると、閉じタグが補完されなくて面倒です。
+（<p まで書いて>を入力すると<p></P>になるやつです）
+ただの html や Angular のテンプレートではできていたのですが
+何がこれをやってくれていたのでしょうか。
+
+それは VSCode のビルトイン機能で、settings の html.autoClosingTags に対応していますが、Vetur にはないようです。
+https://teratail.com/questions/173501
+
+https://github.com/microsoft/vscode/issues/94614
+
+A. Installed an Extension “Auto Close Tag”. And it should work right off the bat without tweaking any settings.
 
 ## vue-weather app setup
 
