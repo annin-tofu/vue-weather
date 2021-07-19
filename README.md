@@ -1,5 +1,9 @@
 # vue-weather
 
+## to start up the app
+
+yarn serve (like yarn start in React Apps)
+
 ## Project setup
 
 ```
