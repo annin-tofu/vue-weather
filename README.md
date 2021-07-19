@@ -70,6 +70,12 @@ $ yarn serve (to start up app on the server)
 or
 \$ code . && yarn serve
 
+Q. Why? VSCode is freaking out? (Though the code is working)
+A. “Now expand the src folder and select the App.vue file. You'll notice that VS Code doesn't show any syntax highlighting and it treats the file as Plain Text”
+https://code.visualstudio.com/docs/nodejs/vuejs-tutorial
+
+> > > Install an Extension “Vetur”. And JSCno longer freaks out
+
 ## vue-weather app setup
 
 We need to pull API from weather database @openweather.org
@@ -79,4 +85,3 @@ We need to pull API from weather database @openweather.org
 
 2. Create key with VueApp as API key name
    ￼
-   a33b0ed08b0cb1bc797a8395454f0096
